@@ -6,69 +6,69 @@
 
 @layer base {
   :root {
-    /* Core Brand Colors - Professional Navy & Gold Theme */
+    /* Core Brand Colors - Modern Purple/Pink Theme */
     --background: 0 0% 100%;
-    --foreground: 220 39% 11%;
+    --foreground: 240 10% 3.9%;
     
     /* Cards & Surfaces */
     --card: 0 0% 100%;
-    --card-foreground: 220 39% 11%;
-    --card-hover: 210 40% 98%;
+    --card-foreground: 240 10% 3.9%;
+    --card-hover: 240 4.8% 95.9%;
     
     /* Interactive Elements */
     --popover: 0 0% 100%;
-    --popover-foreground: 220 39% 11%;
+    --popover-foreground: 240 10% 3.9%;
     
     /* Primary Brand Colors */
-    --primary: 220 39% 11%;
+    --primary: 262 83% 58%;
     --primary-foreground: 0 0% 98%;
-    --primary-hover: 220 39% 8%;
+    --primary-hover: 262 83% 50%;
     
     /* Secondary Actions */
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 220 39% 11%;
-    --secondary-hover: 210 40% 93%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 10% 3.9%;
+    --secondary-hover: 240 5.9% 90%;
     
     /* Muted Elements */
-    --muted: 210 40% 93%;
-    --muted-foreground: 220 13% 46%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
     
     /* Accent Colors */
-    --accent: 45 93% 47%;
-    --accent-foreground: 220 39% 11%;
-    --accent-hover: 45 93% 42%;
+    --accent: 316 70% 68%;
+    --accent-foreground: 0 0% 98%;
+    --accent-hover: 316 70% 60%;
     
     /* Success & Status */
-    --success: 160 84% 39%;
+    --success: 142 76% 36%;
     --success-foreground: 0 0% 98%;
     
     /* Warning & Caution */
     --warning: 38 92% 50%;
-    --warning-foreground: 220 39% 11%;
+    --warning-foreground: 0 0% 98%;
     
     /* Destructive Actions */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
     
     /* Form Elements */
-    --border: 220 13% 91%;
-    --input: 210 40% 96%;
-    --ring: 45 93% 47%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 262 83% 58%;
     
     /* Design System */
     --radius: 0.75rem;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(220 39% 11%), hsl(45 93% 47%));
-    --gradient-secondary: linear-gradient(135deg, hsl(210 40% 96%), hsl(210 40% 93%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 39% 11% / 0.05), hsl(45 93% 47% / 0.08));
+    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%), hsl(316 70% 68%));
+    --gradient-secondary: linear-gradient(135deg, hsl(240 4.8% 95.9%), hsl(240 5.9% 90%));
+    --gradient-hero: linear-gradient(135deg, hsl(262 83% 58% / 0.1), hsl(316 70% 68% / 0.05));
     --gradient-glass: linear-gradient(135deg, hsl(0 0% 100% / 0.1), hsl(0 0% 100% / 0.05));
     
     /* Shadows */
-    --shadow-soft: 0 2px 8px hsl(220 39% 11% / 0.04);
-    --shadow-medium: 0 4px 16px hsl(220 39% 11% / 0.08);
-    --shadow-strong: 0 8px 32px hsl(220 39% 11% / 0.12);
-    --shadow-glow: 0 0 32px hsl(45 93% 47% / 0.3);
+    --shadow-soft: 0 2px 8px hsl(262 83% 58% / 0.04);
+    --shadow-medium: 0 4px 16px hsl(262 83% 58% / 0.08);
+    --shadow-strong: 0 8px 32px hsl(262 83% 58% / 0.12);
+    --shadow-glow: 0 0 32px hsl(262 83% 58% / 0.3);
     
     /* Animations */
     --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
