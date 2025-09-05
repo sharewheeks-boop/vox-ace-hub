@@ -6,40 +6,40 @@
 
 @layer base {
   :root {
-    /* Core Brand Colors - Professional Blue/Purple Theme */
+    /* Core Brand Colors - Modern Purple/Pink Theme */
     --background: 0 0% 100%;
-    --foreground: 224 71% 4%;
+    --foreground: 240 10% 3.9%;
     
     /* Cards & Surfaces */
     --card: 0 0% 100%;
-    --card-foreground: 224 71% 4%;
-    --card-hover: 220 14% 96%;
+    --card-foreground: 240 10% 3.9%;
+    --card-hover: 240 4.8% 95.9%;
     
     /* Interactive Elements */
     --popover: 0 0% 100%;
-    --popover-foreground: 224 71% 4%;
+    --popover-foreground: 240 10% 3.9%;
     
     /* Primary Brand Colors */
-    --primary: 221 83% 53%;
+    --primary: 262 83% 58%;
     --primary-foreground: 0 0% 98%;
-    --primary-hover: 221 83% 45%;
+    --primary-hover: 262 83% 50%;
     
     /* Secondary Actions */
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 224 71% 4%;
-    --secondary-hover: 220 13% 91%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 10% 3.9%;
+    --secondary-hover: 240 5.9% 90%;
     
     /* Muted Elements */
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 9% 46%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
     
     /* Accent Colors */
-    --accent: 262 83% 58%;
+    --accent: 316 70% 68%;
     --accent-foreground: 0 0% 98%;
-    --accent-hover: 262 83% 50%;
+    --accent-hover: 316 70% 60%;
     
     /* Success & Status */
-    --success: 142 71% 45%;
+    --success: 142 76% 36%;
     --success-foreground: 0 0% 98%;
     
     /* Warning & Caution */
@@ -51,23 +51,24 @@
     --destructive-foreground: 0 0% 98%;
     
     /* Form Elements */
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 221 83% 53%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 262 83% 58%;
     
     /* Design System */
     --radius: 0.75rem;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(221 83% 53%), hsl(262 83% 58%));
-    --gradient-secondary: linear-gradient(135deg, hsl(220 14% 96%), hsl(220 13% 91%));
-    --gradient-hero: linear-gradient(135deg, hsl(221 83% 53% / 0.1), hsl(262 83% 58% / 0.05));
+    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%), hsl(316 70% 68%));
+    --gradient-secondary: linear-gradient(135deg, hsl(240 4.8% 95.9%), hsl(240 5.9% 90%));
+    --gradient-hero: linear-gradient(135deg, hsl(262 83% 58% / 0.1), hsl(316 70% 68% / 0.05));
+    --gradient-glass: linear-gradient(135deg, hsl(0 0% 100% / 0.1), hsl(0 0% 100% / 0.05));
     
     /* Shadows */
-    --shadow-soft: 0 2px 8px hsl(221 83% 53% / 0.04);
-    --shadow-medium: 0 4px 16px hsl(221 83% 53% / 0.08);
-    --shadow-strong: 0 8px 32px hsl(221 83% 53% / 0.12);
-    --shadow-glow: 0 0 32px hsl(221 83% 53% / 0.3);
+    --shadow-soft: 0 2px 8px hsl(262 83% 58% / 0.04);
+    --shadow-medium: 0 4px 16px hsl(262 83% 58% / 0.08);
+    --shadow-strong: 0 8px 32px hsl(262 83% 58% / 0.12);
+    --shadow-glow: 0 0 32px hsl(262 83% 58% / 0.3);
     
     /* Animations */
     --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
@@ -93,32 +94,32 @@
 
   .dark {
     /* Dark theme for VoxMentor */
-    --background: 224 71% 4%;
+    --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
     
-    --card: 224 71% 6%;
+    --card: 240 10% 6%;
     --card-foreground: 0 0% 98%;
-    --card-hover: 224 71% 8%;
+    --card-hover: 240 10% 8%;
     
-    --popover: 224 71% 6%;
+    --popover: 240 10% 6%;
     --popover-foreground: 0 0% 98%;
     
-    --primary: 221 83% 53%;
+    --primary: 262 83% 58%;
     --primary-foreground: 0 0% 98%;
-    --primary-hover: 221 83% 45%;
+    --primary-hover: 262 83% 50%;
     
-    --secondary: 224 71% 8%;
+    --secondary: 240 10% 8%;
     --secondary-foreground: 0 0% 98%;
-    --secondary-hover: 224 71% 12%;
+    --secondary-hover: 240 10% 12%;
     
-    --muted: 224 71% 8%;
-    --muted-foreground: 220 9% 65%;
+    --muted: 240 10% 8%;
+    --muted-foreground: 240 5% 64.9%;
     
-    --accent: 262 83% 58%;
+    --accent: 316 70% 68%;
     --accent-foreground: 0 0% 98%;
-    --accent-hover: 262 83% 50%;
+    --accent-hover: 316 70% 60%;
     
-    --success: 142 71% 45%;
+    --success: 142 76% 36%;
     --success-foreground: 0 0% 98%;
     
     --warning: 38 92% 50%;
@@ -127,20 +128,21 @@
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 224 71% 12%;
-    --input: 224 71% 12%;
-    --ring: 221 83% 53%;
+    --border: 240 10% 12%;
+    --input: 240 10% 12%;
+    --ring: 262 83% 58%;
     
     /* Dark mode gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(221 83% 53%), hsl(262 83% 58%));
-    --gradient-secondary: linear-gradient(135deg, hsl(224 71% 8%), hsl(224 71% 12%));
-    --gradient-hero: linear-gradient(135deg, hsl(221 83% 53% / 0.2), hsl(262 83% 58% / 0.1));
+    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%), hsl(316 70% 68%));
+    --gradient-secondary: linear-gradient(135deg, hsl(240 10% 8%), hsl(240 10% 12%));
+    --gradient-hero: linear-gradient(135deg, hsl(262 83% 58% / 0.2), hsl(316 70% 68% / 0.1));
+    --gradient-glass: linear-gradient(135deg, hsl(0 0% 100% / 0.05), hsl(0 0% 100% / 0.02));
     
     /* Dark mode shadows */
     --shadow-soft: 0 2px 8px hsl(0 0% 0% / 0.2);
     --shadow-medium: 0 4px 16px hsl(0 0% 0% / 0.3);
     --shadow-strong: 0 8px 32px hsl(0 0% 0% / 0.4);
-    --shadow-glow: 0 0 32px hsl(221 83% 53% / 0.4);
+    --shadow-glow: 0 0 32px hsl(262 83% 58% / 0.4);
   }
 }
 
