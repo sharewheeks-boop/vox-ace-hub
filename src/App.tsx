@@ -10,6 +10,7 @@ import VoiceInterviews from "./pages/VoiceInterviews";
 import CodingChallenges from "./pages/CodingChallenges";
 import AptitudeTests from "./pages/AptitudeTests";
 import Analytics from "./pages/Analytics";
+import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/coding" element={<CodingChallenges />} />
           <Route path="/aptitude" element={<AptitudeTests />} />
           <Route path="/analytics" element={<Analytics />} />
+          <Route path="/profile" element={<Profile />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

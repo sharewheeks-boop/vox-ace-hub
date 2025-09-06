@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Mic, Code, Brain, BarChart3 } from "lucide-react";
+import { Menu, X, Mic, Code, Brain, BarChart3, User } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -11,6 +11,7 @@ const Header = () => {
     { name: "Coding Challenges", href: "/coding", icon: Code },
     { name: "Aptitude Tests", href: "/aptitude", icon: Brain },
     { name: "Analytics", href: "/analytics", icon: BarChart3 },
+    { name: "Profile", href: "/profile", icon: User },
   ];
 
   return (
